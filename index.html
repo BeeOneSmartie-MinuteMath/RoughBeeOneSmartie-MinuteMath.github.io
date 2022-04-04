@@ -62,7 +62,6 @@ p{
         location.replace ("https://beeonesmartie-minutemath.github.io/grade5/")
       }
       var Grade=1;
-      sessionStorage.setItem("Grade", Grade);
       function setGrade() 
       {
         Grade=2;
@@ -84,6 +83,9 @@ p{
     <button onclick="myFunction4()" class="button">Grade 4</button>
     <button onclick="myFunction5()" class="button">Grade 5</button>
     </center>  
-        
+        <script>
+          sessionStorage.setItem("Grade", Grade);
+    </script>
+          
   </body>
 </html>
