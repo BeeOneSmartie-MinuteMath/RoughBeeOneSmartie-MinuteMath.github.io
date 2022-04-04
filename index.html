@@ -65,6 +65,7 @@ p{
       function setGrade() 
       {
         var Grade=2;
+        sessionStorage.setItem("Grade", Grade);
         return Grade;
       }
      </script>
@@ -83,10 +84,7 @@ p{
     <button onclick="myFunction3()" class="button">Grade 3</button>
     <button onclick="myFunction4()" class="button">Grade 4</button>
     <button onclick="myFunction5()" class="button">Grade 5</button>
-    </center>  
-        <script>
-          sessionStorage.setItem("Grade", Grade);
-    </script>
+    </center>
           
   </body>
 </html>
